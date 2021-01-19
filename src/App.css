@@ -1,0 +1,47 @@
+#root {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #7f8c8d;
+}
+
+.box {
+  background-color: #f39c12;
+  width: 350px;
+  height: auto;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 20px #000000;
+}
+
+.inputField {
+  padding: 10px;
+  font-size: 125%;
+  border-radius: 25px;
+  background-color: #f1c40f;
+  color: white;
+  text-align: center;
+  border: 2px solid #f1c40f;
+}
+
+.inputField:focus {
+  outline: none;
+}
+
+.errorMsg {
+  text-align: center;
+}
+
+@media (max-width: 350px ) {
+  .box {
+      width: 100%;
+  }
+
+  .inputField {
+    width: 100%;
+  }
+}
